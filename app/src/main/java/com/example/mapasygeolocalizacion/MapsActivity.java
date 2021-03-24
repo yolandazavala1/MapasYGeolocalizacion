@@ -51,7 +51,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     double longitudActual = Double.parseDouble(MainActivity.intent.getExtras().getString("longitudActual"));
 
     //Key
-    String key = "AIzaSyDZx8ah9aVIZ57h7k1-V2DnivCSKNkLtXA";
+    String key = "AIzaSyBYWzN-wxxiLAwbVYUVd3qLAK6-C_tp-Ds";
 
     JSONObject jso;
 

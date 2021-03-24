@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
 
                 //Origen
-                intent.putExtra("LatitudCasa", txtLatitudDestino.getText().toString());
-                intent.putExtra("LongitudCasa",txtLongitudDestino.getText().toString());
+                intent.putExtra("LatitudCasa", txtLatitudActual.getText().toString());
+                intent.putExtra("LongitudCasa",txtLongitudActual.getText().toString());
 
                 //Destino
-                intent.putExtra("latituActual",txtLatitudActual.getText().toString());
-                intent.putExtra("longitudActual",txtLongitudActual.getText().toString());
+                intent.putExtra("latituActual",txtLatitudDestino.getText().toString());
+                intent.putExtra("longitudActual",txtLongitudDestino.getText().toString());
 
                 Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
                 startActivity(intent);
